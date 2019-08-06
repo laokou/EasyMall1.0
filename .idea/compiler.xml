@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TestLucene" />
+        <module name="easymall-user" />
+        <module name="easymall-cart" />
+        <module name="common" />
+        <module name="cloud-zuul" />
+        <module name="easymall-search" />
+        <module name="common-redis" />
+        <module name="easymall-image" />
+        <module name="cloud-ribbon" />
+        <module name="cloud-config" />
+        <module name="easymall-order" />
+        <module name="easymall-product" />
+        <module name="cloud-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EasyMall1.0 (1)" target="1.8" />
+      <module name="EasyMall1.0 (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
