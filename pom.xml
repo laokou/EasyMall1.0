@@ -21,7 +21,6 @@
         <module>easymall-cart</module>
         <module>easymall-order</module>
         <module>easymall-search</module>
-        <module>cloud-config</module>
         <module>TestLucene</module>
     </modules>
 

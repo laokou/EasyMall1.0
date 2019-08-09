@@ -3,11 +3,11 @@ package com.tedu.service;
 import java.util.List;
 import java.util.UUID;
 
+import com.tedu.mapper.ProductMapper;
 import com.tedu.pojo.Product;
 import com.tedu.vo.EasyUIResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.tedu.mapper.ProductMapper;
 import org.springframework.stereotype.Service;
 
 @Service

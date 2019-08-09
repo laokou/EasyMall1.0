@@ -17,7 +17,7 @@ public class AnalyzerTest {
         //1.获取String流
         StringReader reader = new StringReader(msg);
         //2.tokenStream  分词器的计算结果
-        //fields  某个doucument的域属性
+        //fields  某个doucument的域属,/KJ;.*-+9L,k:>{"?
         TokenStream tokenStream = analyzer.tokenStream("test", reader);
         tokenStream.reset();
         CharTermAttribute attribute = tokenStream.getAttribute(CharTermAttribute.class);

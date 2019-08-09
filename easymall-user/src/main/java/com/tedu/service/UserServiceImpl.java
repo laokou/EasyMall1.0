@@ -2,8 +2,6 @@ package com.tedu.service;
 
 import com.tedu.mapper.UserMapper;
 import com.tedu.pojo.User;
-import com.tedu.redis.config.RedisClusterConfig;
-import com.tedu.utils.CookieUtils;
 import com.tedu.utils.MD5Util;
 import com.tedu.utils.MapperUtil;
 import org.springframework.beans.factory.annotation.Autowired;

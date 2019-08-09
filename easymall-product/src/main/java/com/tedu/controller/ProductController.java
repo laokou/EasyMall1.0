@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
 	@Autowired
 	private ProductService productService;
+
 	//商品分页查询
 	@RequestMapping("/pageManage")
 	public EasyUIResult pageQuery(Integer page, Integer rows){
