@@ -6,30 +6,14 @@
 
     <parent>
         <artifactId>EasyMall1.0</artifactId>
-        <groupId>com.tedu</groupId>
+        <groupId>cn.tedu</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>common</artifactId>
 
     <dependencies>
-        <!--springBoot动态的引入springMVC全部的配置 -->
-        <!--需要手动导入web依赖,utils中需要javax.servlet依赖和jackson依赖支持-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
 
-        <!-- 需要手动导入jackson-core和jackson-annotations资源, 不然utils资源报错 -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-        </dependency>
 
         <!--使jsp页面生效,使tomcat外部的jsp页面能够被识别解析 -->
 <!--        <dependency>-->
